@@ -1,0 +1,143 @@
+                           
+                           ====================================
+                           =========>>WP architecture<<========
+
+
+#wordpress database
+Has total 12 tables user can custom  table
+=>see wp database schema diagram to figured out relation on tables.
+
+
+
+#Wp users
+type of users hierarchy
+==>Asuper admin can access all file(also multiple site on a wp networks)
+1.admin-10  2.Editors(edit post,moderate comments,manage terms others)-7  3.Authors(Manage their own posts )-2 4.contributors(upload the post but can't publish posts)-1 5.Subscribers(only can comments and see other posts)-0
+
+
+#template hierarchy
+=>See the Diagram of wordpress template hierarchy
+=>use the /*
+Template Name: My Custom Template Page 01
+Post Type: post, page */
+for create cutom template page
+
+
+
+#wordpress terms of taxonomy
+taxonomy is identifier to classified the posts. two type of taxonomy 1.hierarchical(category,sub category ) 2.non heirarchical(tags)
+
+
+
+
+
+                           ====================================
+                           ==================>>o<<=============
+
+Module has done
+
+# Custom login page -d
+# custom texonomy and post type  -d
+# user profile & user previleges & user management -d
+# child theme -d
+
+
+       ---------->>Base Phase<<-------------
+
+
+
+1.WP custom wigets 
+
+
+
+2.wp file system
+php.ini[ this is configure file for php]
+to increase upload file size or upload time or other has to edit php.ini file
+after editing php.ini file hast to run the following comand
+ |*****systemctl reload php7.4-fpm******|
+
+
+3.Custom page template
+  ##Use WP template hierarchy
+
+          ------->>Brain Strorm WP Structure<<--------
+
+4.using react js in wp for creating custom page or any frontend section or theme
+
+
+
+      --------->>Developed Phase<<-------------
+5.Backup and migration
+
+6.Choosign Theme & plugin
+
+7.SSL 
+
+8.website installation and server configuring for wp
+
+
+
+    ---------------->>Advance<<----------------
+9.Bug fixing and security
+
+10.multilenguage webpage
+
+11.cacheing
+
+
+
+
+==========//pre built code or plugin for adding functionality//===========
+
+1.Reviewing,like,comments,share(library)
+
+2.user management 
+
+3.custom post type and texonomy(plugin)
+
+4.SSl plugin
+
+5.File system(plugin or code)
+php.ini[ this is configure file for php]
+to increase upload file size or upload time or other has to edit php.ini file
+after editing php.ini file hast to run the following comand
+ |*****systemctl reload php7.4-fpm******|
+
+//Advance//
+
+6.notification, email and popup mang.
+
+7.author info
+
+
+.... continued
+
+                           ====================================
+                           ==================>>o<<=============
+
+
+task-01
+===========>>Top multipupose theme<<<=============
+1.Astra 
+
+2.divi 
+
+3.Hestia 
+
+4.brooklyn
+
+5.oceanWP
+
+6.cadence
+
+==============>><<==============
+
+
+Task-03
+
+
+
+
+
+
+

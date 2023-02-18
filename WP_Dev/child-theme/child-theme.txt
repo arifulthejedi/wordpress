@@ -1,0 +1,28 @@
+
+==>>Child theme teplate code
+style.css
+/*
+ Theme Name:   Meni Child //child theme name
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  astra Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     meni //**parent theme folder name
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+
+functions.php
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+function my_theme_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css');//adding parent theme css
+    wp_enqueue_style( 'child-style', get_stylesheet_uri()); //adding child theme style.css file
+    wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri().'/child.css'); //for custom css for child theme
+    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri().'/child.js'); //for custom js for child theme
+ 
+}
+
