@@ -1,7 +1,7 @@
 <?php 
 
 /**
-* Plugin Name: Bkash payment gateway plugin
+* Plugin Name: Admission payment gateway plugin
 * Description: This plugin can implement bkash pamyent in the wordpress site
 * Author: Ariful Islam
 * Version: 1.0.0
