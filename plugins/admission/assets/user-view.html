@@ -1,0 +1,60 @@
+
+    <div id="bkash-payment-plugin">
+      <!-- <center class="heading"><p>Admission</p></center> -->
+        <div class="container">
+          <div class="sec sec-2">
+               <div class="img-container">
+                 <img width="100%" src="http://localhost/wp-content/uploads/2023/09/Bkash.png" alt="bkash-logo" />
+               </div>
+               <div class="payment">
+                <div id="price" class="pricetage">
+                  <div class="class">
+                    Class : <span id="student-class"></span>
+                  </div>
+                  <div class="admission-fees">
+                    Admission Fees: <span style="font-size:1.5rem; font-weight: bold;" id="admission-fees">000</span>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <label>Your Bkash Number</label>
+                  <input id="bkash-num" placeholder="eg 01XXXXXXXXX" type="number" required/>
+                </div> 
+               </div>
+               <div class="status-msg">
+                  
+               </div>
+          </div>
+            <div class="sec sec-1">
+                  <form >
+                      <div class="inp-group">
+                        <label>Name</label>
+                        <input id="student-name" type="text" placeholder="Student name" required />
+                      </div>
+                      <div class="inp-group">
+                        <label>Age</label>
+                        <input id="student-age" type="number" placeholder="Student Age" required/>
+                      </div>
+                      <div class="inp-group">
+                        <label>Parent Name</label>
+                        <input id="p-name" type="text" placeholder="Student gardian"  required/>
+                      </div>
+                      <div class="inp-group">
+                        <label for="country">Select Class:</label>
+                        <select id="student-class-selected" name="country" required>
+                            <option value=""></option>
+                            <option value="Play">Play</option>
+                            <option value="Nurcery">Nurcery</option>
+                            <option value="I">I</option>
+                            <option value="II">II</option>
+                            <option value="III">III</option>
+                            <option value="IV">IV</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+                      <div class="inp-group">
+                        <center><button id="bkash-payment-submit">Submit</button></center>
+                      </div>
+                  </form>
+            </div>
+        </div>
+    </div>

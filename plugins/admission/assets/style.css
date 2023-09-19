@@ -1,0 +1,161 @@
+/* This is styling for payment getway plugin*/
+#bkash-payment-plugin > *{
+    padding: 0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+#bkash-payment-plugin{
+    color:rgb(109 107 107);
+    background-color:beige;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+#bkash-payment-plugin .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bkash-payment-plugin .container .sec{
+    padding:5px;
+}
+
+#bkash-payment-plugin .container .sec-1{
+
+}
+
+#bkash-payment-plugin .heading{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(73 73 73);
+}
+
+
+#bkash-payment-plugin .sec-1 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bkash-payment-plugin .container .sec-1 .inp-group{
+    margin:10px;
+}
+
+
+#bkash-payment-plugin .container .sec-1 label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#bkash-payment-plugin .sec-1 form input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top:5px;
+}
+
+
+#bkash-payment-plugin form select {
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#bkash-payment-plugin form button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#db025d;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */ 
+}
+
+#bkash-payment-plugin form button:hover{
+    background-color:#9b0141;
+
+}
+
+
+
+/* payment gateway design */
+#bkash-payment-plugin .sec-2 .payment{
+    padding: 5px;
+}
+
+#bkash-payment-plugin .payment{
+    font-size: 1.2rem;
+}
+
+#bkash-payment-plugin .payment .input-group{
+    margin-top: 10px;
+    background-color: #e3146b;
+    color:white;
+    padding: 10px;
+}
+
+#bkash-payment-plugin .payment .input-group label{
+    color:white;
+}
+
+#bkash-payment-plugin .payment .input-group input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px none;
+    margin-top:5px;
+}
+
+
+
+#bkash-payment-plugin .status-msg{
+    font-size: .85rem;
+    color:red;
+    margin-top:20px;
+    text-align: center;
+}
+
+
+
+/* admin view */
+
+#bkash-payment-plugin-admin table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style table headers */
+#bkash-payment-plugin-admin th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style table rows */
+#bkash-payment-plugin-admin tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style table data cells */
+#bkash-payment-plugin-admin td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
